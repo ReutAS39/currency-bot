@@ -1,7 +1,7 @@
 import requests
 import json
 
-from config import currencys
+from bot.config import currencys
 
 
 class APIException(Exception):

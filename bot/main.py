@@ -1,7 +1,7 @@
 import telebot
 
-from config import *
-from extensions import Converter, APIException
+from bot.config import *
+from bot.extensions import Converter, APIException
 
 bot = telebot.TeleBot(settings.BOT_TOKEN)
 
